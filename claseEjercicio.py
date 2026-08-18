@@ -33,3 +33,5 @@ gaton.hablar()
 perro.estatus()
 
 gaton.estatus()
+
+gatito= Animal("gato", "Pola","sonido")
