@@ -5,7 +5,7 @@ class Animal():
         self.sonido=sonido
 
     def que_escucha(self):
-        self.sonido= input("ingrese alguno de estos sonidos: guau, miau, kuku")
+        self.sonido= input("ingrese alguno de estos sonidos: guau, miau, kuku:  ")
         return self.sonido   
 
 
@@ -17,6 +17,7 @@ class Animal():
         else:
             print ("Este es un animal desconocido")
 
-perro =Animal(perro,Colita,sonido)
+perro =Animal("perro","Colita","sonido")
 
 perro.que_escucha()
+perro.hablar()
